@@ -8,7 +8,6 @@ public class QcalcApplication {
 
 	public static void main(String[] args) {
 		// SpringApplication.run(QcalcApplication.class, args);
-		System.out.println("Hello World");
 	}
 
 }
