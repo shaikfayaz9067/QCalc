@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class QcalcApplication {
 
 	public static void main(String[] args) {
+		
 		StandardCalculator calc = new StandardCalculator();
 		calc.add(1, 1);
 
