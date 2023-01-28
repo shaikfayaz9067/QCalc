@@ -78,6 +78,11 @@ public final void multiply(double num1, double num2){
 
 
 public final void divide(double num1, double num2){
+    if(num2 == 0.0){
+
+        throw new ArithmeticException("Divide By Zero");
+
+    }
 
     result = num1 / num2;
 
