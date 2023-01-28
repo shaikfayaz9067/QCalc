@@ -7,16 +7,22 @@ public class StandardCalculator {
     public double getResult() {
         return result;
     }
+    
+    public void setResult(double value) {
+        
+        if (value != 0)
+            return;
 
-    public void clearResult(){
-        result = 0;
+        this.result = value;
     }
-
+        
     public void printResult(){
         System.out.println("Standard Calculator Result:"+ result);
     }
 
-
+    public void clearResult() {
+        result = 0;
+    }
 
     
     public void add(int num1, int num2){
