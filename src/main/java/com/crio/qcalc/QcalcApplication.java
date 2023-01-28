@@ -12,7 +12,13 @@ public class QcalcApplication {
 		// calc.add(Double.MAX_VALUE, 1);
 
 		// System.out.println(calc.getResult());
-		calc.printResult();
+		ScientificCalculator sc=new ScientificCalculator();
+		sc.tan(45);
+		sc.printResult();
+		sc.log(10);
+		// calc.printResult();
+		sc.printResult();
+
 
 	}
 
