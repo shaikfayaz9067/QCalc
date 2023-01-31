@@ -72,7 +72,14 @@ public final void subtract(double num1, double num2){
 
 public final void multiply(double num1, double num2){
 
+  
+
     result = num1 * num2;
+    if((result == -Double.MAX_VALUE) || (result == Double.NEGATIVE_INFINITY)|| (result==Double.POSITIVE_INFINITY)){
+
+        throw new ArithmeticException("Double overflow");
+
+    }
 
 }
 
